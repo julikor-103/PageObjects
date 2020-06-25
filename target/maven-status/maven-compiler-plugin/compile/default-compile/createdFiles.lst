@@ -1,0 +1,9 @@
+maven/pages/utils/BrowserFactory$1.class
+maven/pages/searchByKeyWord/SearchByKeyWordPage.class
+maven/pages/BasePage.class
+maven/pages/utils/Browsers.class
+maven/pages/googleSearch/GoogleResultPage.class
+maven/pages/utils/BrowserFactory.class
+maven/pages/utils/Waiters.class
+maven/pages/googleSearch/GoogleSearchPage.class
+maven/pages/Registration/RegistrationPage.class

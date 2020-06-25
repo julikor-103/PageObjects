@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="67.117" tests="7" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/julikor/Documents/SeleniumProject/target/test-classes:/Users/julikor/Documents/SeleniumProject/target/classes:/Users/julikor/.m2/repository/io/qameta/allure/allure-testng/2.13.3/allure-testng-2.13.3.jar:/Users/julikor/.m2/repository/io/qameta/allure/allure-java-commons/2.13.3/allure-java-commons-2.13.3.jar:/Users/julikor/.m2/repository/io/qameta/allure/allure-model/2.13.3/allure-model-2.13.3.jar:/Users/julikor/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/julikor/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/Users/julikor/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/julikor/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/Users/julikor/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/julikor/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/Users/julikor/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/julikor/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/julikor/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/julikor/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/julikor/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/julikor/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/julikor/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/julikor/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/julikor/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/julikor/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/julikor/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/julikor/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/julikor/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/julikor/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/julikor/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/julikor/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/julikor/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/julikor/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Users/julikor/Library/Java/JavaVirtualMachines/openjdk-14.0.1/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/julikor/Documents/SeleniumProject/target/surefire/surefirebooter13651285737747096563.jar /Users/julikor/Documents/SeleniumProject/target/surefire 2020-06-21T17-17-06_707-jvmRun1 surefire12644600334422017611tmp surefire_05259368944823209257tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/julikor/Documents/SeleniumProject/target/test-classes:/Users/julikor/Documents/SeleniumProject/target/classes:/Users/julikor/.m2/repository/io/qameta/allure/allure-testng/2.13.3/allure-testng-2.13.3.jar:/Users/julikor/.m2/repository/io/qameta/allure/allure-java-commons/2.13.3/allure-java-commons-2.13.3.jar:/Users/julikor/.m2/repository/io/qameta/allure/allure-model/2.13.3/allure-model-2.13.3.jar:/Users/julikor/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/julikor/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/Users/julikor/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/julikor/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/Users/julikor/.m2/repository/org/apache/tika/tika-core/1.20/tika-core-1.20.jar:/Users/julikor/.m2/repository/org/jooq/joor-java-8/0.9.10/joor-java-8-0.9.10.jar:/Users/julikor/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/julikor/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/julikor/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/julikor/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/julikor/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/julikor/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/julikor/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/julikor/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/julikor/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/julikor/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/julikor/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/julikor/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/julikor/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/julikor/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/julikor/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/julikor/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/julikor/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/julikor/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:"/>
+    <property name="allure.results.directory" value="/Users/julikor/Documents/SeleniumProject/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/julikor"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="/Users/julikor/Library/Java/JavaVirtualMachines/openjdk-14.0.1/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/julikor/Documents/SeleniumProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/julikor/Documents/SeleniumProject/target/surefire/surefirebooter13651285737747096563.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="julikor"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/julikor/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/xm/4c9lm27j5zn52lm6j4xf854m0000gn/T/"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="/Users/julikor/Documents/SeleniumProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="webdriver.gecko.driver" value="/Users/julikor/Documents/SeleniumProject/src/test/resources/drivers/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/julikor/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="checkSearchByKeysWordsReturnCorrectNumberOfResultsTest" classname="lessons.lesson16.BaseTest" time="2.832"/>
+  <testcase name="checkSearchByKeysWordsTitleTest" classname="lessons.lesson16.BaseTest" time="1.606"/>
+  <testcase name="checkTileAfterRedirectToLoginPage" classname="lessons.lesson16.BaseTest" time="2.388"/>
+  <testcase name="createAnAccauntTest" classname="lessons.lesson16.BaseTest" time="4.442"/>
+  <testcase name="goToRegistrationPage" classname="maven.pages.registration.RegistrationTest" time="0.046">
+    <failure message="Unable to locate element: .nav&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Pro&apos;, ip: &apos;fe80:0:0:0:100f:ba58:b1ca:3595%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 5976, moz:profile: /var/folders/xm/4c9lm27j5zn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.5.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 2aed644f-e2f6-3147-baa5-6acf60471862&#10;*** Element info: {Using=class name, value=nav}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .nav
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:100f:ba58:b1ca:3595%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 5976, moz:profile: /var/folders/xm/4c9lm27j5zn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.5.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2aed644f-e2f6-3147-baa5-6acf60471862
+*** Element info: {Using=class name, value=nav}
+	at maven.pages.registration.RegistrationTest.goToRegistrationPage(RegistrationTest.java:19)
+]]></failure>
+    <system-err><![CDATA[1592749080029	Marionette	INFO	Stopped listening on port 51444
+]]></system-err>
+  </testcase>
+  <testcase name="checkSearchByKeysWordsReturnCorrectNumberOfResultsTest" classname="maven.pages.searchByKeysWords.SearchByKeysWordTest" time="5.03">
+    <failure message="Unable to locate element: Automation Practice&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Pro&apos;, ip: &apos;fe80:0:0:0:100f:ba58:b1ca:3595%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.5&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 5976, moz:profile: /var/folders/xm/4c9lm27j5zn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.5.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 2aed644f-e2f6-3147-baa5-6acf60471862&#10;*** Element info: {Using=partial link text, value=Automation Practice}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Automation Practice
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:100f:ba58:b1ca:3595%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 5976, moz:profile: /var/folders/xm/4c9lm27j5zn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.5.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2aed644f-e2f6-3147-baa5-6acf60471862
+*** Element info: {Using=partial link text, value=Automation Practice}
+	at maven.pages.searchByKeysWords.SearchByKeysWordTest.checkSearchByKeysWordsReturnCorrectNumberOfResultsTest(SearchByKeysWordTest.java:35)
+]]></failure>
+  </testcase>
+  <testcase name="meSecondTest" classname="maven.pages.searchTests.GoogleSearchTest" time="6.126"/>
+</testsuite>

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 67.117 s <<< FAILURE! - in TestSuite
+maven.pages.registration.RegistrationTest.goToRegistrationPage  Time elapsed: 0.046 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .nav
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:100f:ba58:b1ca:3595%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 5976, moz:profile: /var/folders/xm/4c9lm27j5zn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.5.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2aed644f-e2f6-3147-baa5-6acf60471862
+*** Element info: {Using=class name, value=nav}
+	at maven.pages.registration.RegistrationTest.goToRegistrationPage(RegistrationTest.java:19)
+
+maven.pages.searchByKeysWords.SearchByKeysWordTest.checkSearchByKeysWordsReturnCorrectNumberOfResultsTest  Time elapsed: 5.03 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Automation Practice
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:100f:ba58:b1ca:3595%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '14.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 5976, moz:profile: /var/folders/xm/4c9lm27j5zn..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 19.5.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2aed644f-e2f6-3147-baa5-6acf60471862
+*** Element info: {Using=partial link text, value=Automation Practice}
+	at maven.pages.searchByKeysWords.SearchByKeysWordTest.checkSearchByKeysWordsReturnCorrectNumberOfResultsTest(SearchByKeysWordTest.java:35)
+

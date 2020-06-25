@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="maven.pages.registration.RegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="goToRegistrationPage"/>
+        </methods>
+      </class> <!-- maven.pages.registration.RegistrationTest -->
+      <class name="maven.pages.searchByKeysWords.SearchByKeysWordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="checkSearchByKeysWordsReturnCorrectNumberOfResultsTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- maven.pages.searchByKeysWords.SearchByKeysWordTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
