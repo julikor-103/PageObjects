@@ -1,5 +1,4 @@
 package maven.pages.searchByKeyWord;
-
 import maven.pages.BasePage;
 import maven.pages.utils.Waiters;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +16,6 @@ public class SearchByKeyWordPage extends BasePage {
 
     @FindBy(name="submit_search")
     private WebElement submitBtn;
-
 
     public SearchByKeyWordPage search(String text){
         searchInput.sendKeys(text);

@@ -11,6 +11,8 @@ public class Waiters {
     public static final int DEFAULT_TIME_WAIT = 5;
     public static final int TIME_THIRD = 3;
     public static final String ListItemsForClothes = "li.ajax_block_product";
+    public static final String EmailCreate = "email_create";
+    public static final String SubmitCreate = "SubmitCreate";
 
     public static void implicitWait(WebDriver driver, int time, TimeUnit timeUnit) {
         driver.manage().timeouts().implicitlyWait(time, timeUnit);
@@ -26,4 +28,8 @@ public class Waiters {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(selector)));
     }
 
+    public static void waitForVisibilityOfElementLocated(WebDriver driver, String selector) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(selector)));
+    }
 }

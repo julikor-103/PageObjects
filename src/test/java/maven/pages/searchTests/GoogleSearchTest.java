@@ -11,8 +11,6 @@ import org.testng.annotations.Test;
 import java.util.List;
 import static maven.pages.googleSearch.GoogleResultPage.URL_AUTOPRACTICE;
 
-
-
 public class GoogleSearchTest extends BaseTest {
 
 GoogleSearchPage googleSearchPage;
@@ -43,18 +41,16 @@ public void beforeMethod() {
     return new Object[][] {{"", ""}, {"", ""}, {"", ""}};
     }
 
+
     @Test(priority = 1, groups = "smoke", description = "my second test")
     public void meSecondTest() {
         //Given - передаем сетинги это как прикондишн
         googleSearchPage.openGoogleSearch();
-
         //When - это действия которые выполняются в тесте
         googleSearchPage.search("automationpractice");
-
          //And - второе действие и последующие идут как AND
        googleResultPage.openUrlByName();
           //Then - это результат
-
         Assert.assertEquals(getDriver().getCurrentUrl(), URL_AUTOPRACTICE, "link isn't correct");
     }
 }
